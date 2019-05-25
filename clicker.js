@@ -1,1 +1,1 @@
-document.getElementById("ctl00_cphMain_lnkReportIncident").click();
+//document.getElementById("ctl00_cphMain_lnkReportIncident").click();

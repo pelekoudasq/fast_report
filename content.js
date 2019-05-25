@@ -8,7 +8,7 @@ chrome.runtime.onMessage.addListener(
 			var name = attrs[5].innerText + " " + attrs[6].innerText;
 			var phone = document.getElementsByClassName("gwt-TextBox")[1].value;
 			console.log(name, phone);
-			chrome.runtime.sendMessage({"message": "open_new_tab", "url": url, "name": name, "phone": phone});
+			//chrome.runtime.sendMessage({"message": "open_new_tab", "url": url, "name": name, "phone": phone});
 			console.log("sent to new tab");
 		}
 	}
